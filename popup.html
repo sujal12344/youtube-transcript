@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Smart Transcript</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Smart Transcript</h1>
+    <div id="status-message">Click the button below to get the transcript</div>
+    <button id="get-transcript">Get Transcript</button>
+    <div id="loading" class="hidden">
+      <div class="spinner"></div>
+      <p>Processing transcript...</p>
+    </div>
+    <div id="transcript-container" class="hidden">
+      <h2>Important Points</h2>
+      <div id="transcript-content"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
